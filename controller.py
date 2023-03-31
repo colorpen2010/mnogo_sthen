@@ -6,3 +6,5 @@ def control():
             exit()
         if k.type == pygame.MOUSEBUTTONDOWN:
             model.rasmer+=5
+        if k.type==pygame.KEYDOWN and k.key==pygame.K_ESCAPE:
+            model.scena='igra2'

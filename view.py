@@ -1,8 +1,11 @@
-import pygame,model
-screen=pygame.display.set_mode([1000,1000])
+import pygame, model
+
+screen = pygame.display.set_mode([1000, 1000])
 pygame.init()
+
+
 def viewer():
-    screen.fill([0,0,0])
+    screen.fill([0, 0, 0])
     f = pygame.font.SysFont('arial', model.rasmer, True, True)
 
     d = f.render(str(6), True, [255, 255, 255])
